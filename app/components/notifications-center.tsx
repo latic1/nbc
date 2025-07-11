@@ -75,7 +75,7 @@ export function NotificationsCenter() {
       priority: "medium",
       status: "unread",
       createdAt: "2024-01-25 14:30:22",
-      recipients: ["manager@nbc.gov.lr", "supervisor@nbc.gov.lr"],
+      recipients: ["manager@example.com", "supervisor@example.com"],
       channels: ["email", "in_app"],
       metadata: { parcelId: "PAR-2024-001", county: "Bong", surveyor: "John Surveyor" },
     },
@@ -88,7 +88,7 @@ export function NotificationsCenter() {
       priority: "high",
       status: "unread",
       createdAt: "2024-01-25 13:45:15",
-      recipients: ["gis@nbc.gov.lr", "quality@nbc.gov.lr"],
+      recipients: ["gis@example.com", "quality@example.com"],
       channels: ["email", "sms", "in_app"],
       metadata: { parcelId: "PAR-2024-002", validationType: "boundary_overlap" },
     },
@@ -101,7 +101,7 @@ export function NotificationsCenter() {
       priority: "low",
       status: "read",
       createdAt: "2024-01-25 02:00:00",
-      recipients: ["admin@nbc.gov.lr"],
+      recipients: ["admin@example.com"],
       channels: ["email"],
       metadata: { backupSize: "2.5GB", duration: "45 minutes" },
     },
@@ -114,7 +114,7 @@ export function NotificationsCenter() {
       priority: "critical",
       status: "read",
       createdAt: "2024-01-24 16:22:33",
-      recipients: ["security@nbc.gov.lr", "admin@nbc.gov.lr"],
+      recipients: ["security@example.com", "admin@example.com"],
       channels: ["email", "sms", "push"],
       metadata: { ipAddress: "192.168.1.100", attempts: 5, account: "unknown@example.com" },
     },
@@ -127,7 +127,7 @@ export function NotificationsCenter() {
       priority: "medium",
       status: "unread",
       createdAt: "2024-01-24 11:15:44",
-      recipients: ["concessions@nbc.gov.lr", "legal@nbc.gov.lr"],
+      recipients: ["concessions@example.com", "legal@example.com"],
       channels: ["email", "in_app"],
       metadata: { concessionId: "CON-2024-001", company: "Liberia Mining Corp", type: "Mining" },
     },
@@ -375,7 +375,7 @@ export function NotificationsCenter() {
                   <Textarea
                     value={newNotification.recipients}
                     onChange={(e) => setNewNotification({ ...newNotification, recipients: e.target.value })}
-                    placeholder="user1@nbc.gov.lr, user2@nbc.gov.lr"
+                    placeholder="user1@example.com, user2@example.com"
                     rows={2}
                   />
                 </div>
@@ -642,7 +642,7 @@ export function NotificationsCenter() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label>SMTP Server</Label>
-                    <Input defaultValue="smtp.nbc.gov.lr" />
+                    <Input defaultValue="smtp.example.com" />
                   </div>
                   <div className="space-y-2">
                     <Label>SMTP Port</Label>
@@ -650,7 +650,7 @@ export function NotificationsCenter() {
                   </div>
                   <div className="space-y-2">
                     <Label>From Email</Label>
-                    <Input defaultValue="noreply@nbc.gov.lr" />
+                    <Input defaultValue="noreply@example.com" />
                   </div>
                   <div className="space-y-2">
                     <Label>From Name</Label>
@@ -687,7 +687,7 @@ export function NotificationsCenter() {
                 <div className="space-y-2">
                   <Label>System Administrators</Label>
                   <Textarea
-                    defaultValue="admin@nbc.gov.lr, sysadmin@nbc.gov.lr"
+                    defaultValue="admin@example.com, sysadmin@example.com"
                     placeholder="Comma-separated email addresses"
                     rows={2}
                   />
@@ -695,7 +695,7 @@ export function NotificationsCenter() {
                 <div className="space-y-2">
                   <Label>Security Team</Label>
                   <Textarea
-                    defaultValue="security@nbc.gov.lr, incident@nbc.gov.lr"
+                    defaultValue="security@example.com, incident@example.com"
                     placeholder="Comma-separated email addresses"
                     rows={2}
                   />

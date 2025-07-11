@@ -88,7 +88,7 @@ export function SettingsDialog() {
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="email">Email</Label>
-                  <Input id="email" type="email" defaultValue="john.surveyor@nbc.gov.lr" />
+                  <Input id="email" type="email" defaultValue="john.surveyor@example.com" />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="department">Department</Label>

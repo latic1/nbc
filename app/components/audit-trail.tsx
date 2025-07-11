@@ -44,7 +44,7 @@ export function AuditTrail({ parcelId }: { parcelId: string }) {
     {
       id: "audit_001",
       timestamp: "2024-01-25 14:30:22",
-      user: "john.surveyor@nbc.gov.lr",
+      user: "john.surveyor@example.com",
       action: "Boundary Modified",
       category: "boundary",
       description: "Updated northern boundary coordinates",
@@ -57,7 +57,7 @@ export function AuditTrail({ parcelId }: { parcelId: string }) {
     {
       id: "audit_002",
       timestamp: "2024-01-25 14:25:15",
-      user: "mary.admin@nbc.gov.lr",
+      user: "mary.admin@example.com",
       action: "Validation Run",
       category: "validation",
       description: "Spatial validation completed with 2 warnings",
@@ -68,7 +68,7 @@ export function AuditTrail({ parcelId }: { parcelId: string }) {
     {
       id: "audit_003",
       timestamp: "2024-01-25 13:45:08",
-      user: "system@nbc.gov.lr",
+      user: "system@example.com",
       action: "Status Changed",
       category: "status",
       description: "Parcel status updated from 'Draft' to 'Under Review'",
@@ -81,7 +81,7 @@ export function AuditTrail({ parcelId }: { parcelId: string }) {
     {
       id: "audit_004",
       timestamp: "2024-01-25 11:20:33",
-      user: "james.clerk@nbc.gov.lr",
+      user: "james.clerk@example.com",
       action: "Document Uploaded",
       category: "document",
       description: "Survey report uploaded (survey_report_2024.pdf)",
@@ -92,7 +92,7 @@ export function AuditTrail({ parcelId }: { parcelId: string }) {
     {
       id: "audit_005",
       timestamp: "2024-01-25 10:15:44",
-      user: "john.surveyor@nbc.gov.lr",
+      user: "john.surveyor@example.com",
       action: "Metadata Updated",
       category: "metadata",
       description: "Owner information updated",
@@ -105,7 +105,7 @@ export function AuditTrail({ parcelId }: { parcelId: string }) {
     {
       id: "audit_006",
       timestamp: "2024-01-24 16:30:12",
-      user: "john.surveyor@nbc.gov.lr",
+      user: "john.surveyor@example.com",
       action: "Parcel Created",
       category: "metadata",
       description: "Initial parcel registration created",

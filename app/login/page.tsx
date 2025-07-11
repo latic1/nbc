@@ -148,13 +148,13 @@ export default function LoginPage() {
               <h4 className="text-sm font-medium text-gray-700 mb-2">Demo Credentials:</h4>
               <div className="space-y-1 text-xs text-gray-600">
                 <p>
-                  <strong>Admin:</strong> admin@nbc.gov.lr / admin123
+                  <strong>Admin:</strong> admin@example.com / admin123
                 </p>
                 <p>
-                  <strong>Manager:</strong> manager@nbc.gov.lr / manager123
+                  <strong>Manager:</strong> manager@example.com / manager123
                 </p>
                 <p>
-                  <strong>Surveyor:</strong> surveyor@nbc.gov.lr / surveyor123
+                  <strong>Surveyor:</strong> surveyor@example.com / surveyor123
                 </p>
               </div>
             </div>

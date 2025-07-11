@@ -683,13 +683,13 @@ export function ApiManagement() {
 
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <h4 className="font-medium mb-2">Base URL</h4>
-                  <code className="block bg-gray-800 text-white p-2 rounded text-sm">https://api.nbc.gov.lr/v1</code>
+                  <code className="block bg-gray-800 text-white p-2 rounded text-sm">https://api.example.com/v1</code>
                 </div>
 
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <h4 className="font-medium mb-2">Example Request</h4>
                   <code className="block bg-gray-800 text-white p-2 rounded text-sm whitespace-pre">
-                    {`curl -X GET "https://api.nbc.gov.lr/v1/cadastre/parcels" \\
+                    {`curl -X GET "https://api.example.com/v1/cadastre/parcels" \\
 -H "Authorization: Bearer YOUR_API_KEY" \\
 -H "Content-Type: application/json"`}
                   </code>

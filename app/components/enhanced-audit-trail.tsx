@@ -77,7 +77,7 @@ export function EnhancedAuditTrail({ entityId, entityType }: { entityId?: string
       {
         id: "audit_001",
         timestamp: "2024-01-25 14:30:22",
-        user: "john.surveyor@nbc.gov.lr",
+        user: "john.surveyor@example.com",
         userId: "USR-001",
         action: "Boundary Modified",
         category: "boundary",
@@ -94,14 +94,14 @@ export function EnhancedAuditTrail({ entityId, entityType }: { entityId?: string
         tags: ["spatial", "boundary", "coordinates"],
         metadata: {
           reason: "Survey correction",
-          approvedBy: "mary.admin@nbc.gov.lr",
+          approvedBy: "mary.admin@example.com",
           validationPassed: true,
         },
       },
       {
         id: "audit_002",
         timestamp: "2024-01-25 14:25:15",
-        user: "mary.admin@nbc.gov.lr",
+        user: "mary.admin@example.com",
         userId: "USR-002",
         action: "User Created",
         category: "user",
@@ -110,7 +110,7 @@ export function EnhancedAuditTrail({ entityId, entityType }: { entityId?: string
         entityId: "USR-003",
         oldValue: null,
         newValue: {
-          email: "james.clerk@nbc.gov.lr",
+          email: "james.clerk@example.com",
           role: "Data Entry Clerk",
           department: "Cadastre Division",
         },
@@ -128,7 +128,7 @@ export function EnhancedAuditTrail({ entityId, entityType }: { entityId?: string
       {
         id: "audit_003",
         timestamp: "2024-01-25 13:45:08",
-        user: "system@nbc.gov.lr",
+        user: "system@example.com",
         userId: "SYSTEM",
         action: "Automated Backup",
         category: "system",
@@ -184,7 +184,7 @@ export function EnhancedAuditTrail({ entityId, entityType }: { entityId?: string
       {
         id: "audit_005",
         timestamp: "2024-01-25 10:15:44",
-        user: "john.surveyor@nbc.gov.lr",
+        user: "john.surveyor@example.com",
         userId: "USR-001",
         action: "Document Uploaded",
         category: "document",
@@ -212,7 +212,7 @@ export function EnhancedAuditTrail({ entityId, entityType }: { entityId?: string
       {
         id: "audit_006",
         timestamp: "2024-01-24 16:30:12",
-        user: "data.processor@nbc.gov.lr",
+        user: "data.processor@example.com",
         userId: "USR-004",
         action: "Bulk Data Import",
         category: "system",

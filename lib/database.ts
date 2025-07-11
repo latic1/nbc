@@ -121,7 +121,7 @@ class DatabaseConnection {
         id: "USR-001",
         firstName: "John",
         lastName: "Surveyor",
-        email: "john.surveyor@nbc.gov.lr",
+        email: "john.surveyor@example.com",
         role: "Senior Surveyor",
         department: "Cadastre Division",
         status: "Active",

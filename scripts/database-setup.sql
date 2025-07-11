@@ -129,9 +129,9 @@ CREATE INDEX IF NOT EXISTS idx_notifications_status ON notifications(status);
 
 -- Insert sample data
 INSERT INTO users (username, email, password_hash, full_name, role, status, phone, department) VALUES
-('admin', 'admin@nbc.gov.lr', '$2b$10$example_hash', 'System Administrator', 'Administrator', 'Active', '+231-555-0001', 'IT Department'),
-('surveyor1', 'surveyor1@nbc.gov.lr', '$2b$10$example_hash', 'John Doe', 'Surveyor', 'Active', '+231-555-0002', 'Survey Department'),
-('dataentry1', 'dataentry1@nbc.gov.lr', '$2b$10$example_hash', 'Jane Smith', 'Data Entry', 'Active', '+231-555-0003', 'Records Department')
+('admin', 'admin@example.com', '$2b$10$example_hash', 'System Administrator', 'Administrator', 'Active', '+231-555-0001', 'IT Department'),
+('surveyor1', 'surveyor1@example.com', '$2b$10$example_hash', 'John Doe', 'Surveyor', 'Active', '+231-555-0002', 'Survey Department'),
+('dataentry1', 'dataentry1@example.com', '$2b$10$example_hash', 'Jane Smith', 'Data Entry', 'Active', '+231-555-0003', 'Records Department')
 ON CONFLICT (username) DO NOTHING;
 
 -- Insert sample parcels

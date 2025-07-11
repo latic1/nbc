@@ -534,7 +534,7 @@ export default function PublicPortalPage() {
               <div className="text-sm text-gray-600 space-y-2">
                 <p>National Bureau of Concessions</p>
                 <p>Monrovia, Liberia</p>
-                <p>Email: info@nbc.gov.lr</p>
+                <p>Email: info@example.com</p>
                 <p>Phone: +231-77-XXX-XXXX</p>
               </div>
             </div>
